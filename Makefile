@@ -23,9 +23,6 @@ setup:
 	mkdir -p log
 	mkdir -p segments
 	mkdir -p $(BIN)
-	#mkdir -p $(SRC)
-	#unzip mappe.zip -d segments
-	#unzip source.zip -d .
 
 clean:
 	$(RM) ./bin/*.o
