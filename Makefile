@@ -23,6 +23,7 @@ setup:
 	mkdir -p log
 	mkdir -p segments
 	mkdir -p $(BIN)
+	unzip mappe.zip -d segments
 
 clean:
 	$(RM) ./bin/*.o
